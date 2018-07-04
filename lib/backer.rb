@@ -14,13 +14,13 @@ class Backer
     logan = Backer.new("Logan")
     hoverboard = Project.new("Awesome Hoverboard")
     logan.back_project(hoverboard)
+
 def back_project(project)
    @backed_projects << project
    new_project = Project.new
-   
+      
   end
 # player = Player.new
-# while player.card_pile.length < 2 do
 #     new_card = Card.new
 #     player.card_pile.push(new_card.value)
 # end
