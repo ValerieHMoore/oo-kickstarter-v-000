@@ -18,7 +18,7 @@ class Backer
 def back_project(project)
    @backed_projects << project
    new_project = Project.new
-      
+     @backers.push(backer)
   end
 # player = Player.new
 #     new_card = Card.new
