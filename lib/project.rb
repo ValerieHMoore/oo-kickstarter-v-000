@@ -1,7 +1,7 @@
 require_relative 'backer'
 
 class Project
-  attr_accessor :backers, :title, :backed_projects
+  attr_accessor :backers, :title, :backed_projects, :name
   
   def initialize(title)
     @title = title
