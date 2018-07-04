@@ -9,11 +9,11 @@ class Backer
     @backed_projects = []
   end
  
-  describe 'Backer - More Advanced #back_project' do
-  it 'also adds the backer to the project\'s backers array' do
-    logan = Backer.new("Logan")
-    hoverboard = Project.new("Awesome Hoverboard")
-    logan.back_project(hoverboard)
+  # describe 'Backer - More Advanced #back_project' do
+  # it 'also adds the backer to the project\'s backers array' do
+  #   logan = Backer.new("Logan")
+  #   hoverboard = Project.new("Awesome Hoverboard")
+  #   logan.back_project(hoverboard)
 
 def back_project(project)
    @backed_projects << project
