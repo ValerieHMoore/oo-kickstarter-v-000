@@ -2,7 +2,7 @@ require 'pry'
 require_relative 'project.rb'
 
 class Backer
- attr_accessor :backed_projects, :name
+ attr_accessor :backed_projects, :name, :backers
  
   def initialize(name)
     @name = name
