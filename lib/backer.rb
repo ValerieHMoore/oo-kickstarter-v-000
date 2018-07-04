@@ -15,9 +15,9 @@ class Backer
     hoverboard = Project.new("Awesome Hoverboard")
     logan.back_project(hoverboard)
 
-def back_project(project)
-  @backed_projects << project
-   
+  def back_project(project)
+    @backed_projects << project
+    
   end
 
 end
