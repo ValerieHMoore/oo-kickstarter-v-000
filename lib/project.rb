@@ -1,4 +1,4 @@
-require_relative 'backer'
+require_relative 'backer.rb'
 
 class Project
   attr_accessor :backers, :title, :backed_projects, :name
